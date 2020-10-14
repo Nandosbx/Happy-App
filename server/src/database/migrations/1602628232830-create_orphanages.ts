@@ -1,5 +1,6 @@
 import {MigrationInterface, QueryRunner, Table} from "typeorm";
 
+// tslint:disable-next-line: class-name
 export class createOrphanages1602628232830 implements MigrationInterface {
 
   public async up(queryRunner: QueryRunner): Promise<void> {
@@ -41,20 +42,26 @@ export class createOrphanages1602628232830 implements MigrationInterface {
         // ANCHOR About
         {
           name: 'about',
-          type: 'text',          
+          type: 'text',
         },
 
         // ANCHOR Instruction
         {
-          name: 'instruction',
-          type: 'text',         
+          name: 'instructions',
+          type: 'text',
+        },
+
+        // ANCHOR Opening hours
+        {
+          name: 'opening_hours',
+          type: 'varchar'
         },
 
         // ANCHOR Open on weekends
         {
           name: 'open_on_weekends',
           type: 'boolean',
-          default: false,         
+          default: false,
         },
       ]
     }))
