@@ -3,7 +3,7 @@ import React from 'react'
 import Routes from './routes'
 
 // ANCHOR Styles
-import './styles/global.css'
+import './styles/global.scss'
 
 function App() {
     return <Routes />
