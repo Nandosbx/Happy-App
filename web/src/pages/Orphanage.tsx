@@ -54,7 +54,7 @@ export default function Orphanage() {
                         </button>
                         <button type="button">
                             <img
-                                src="http://www.casadacriancasantoamaro.org.br/photos/casadacrianca10.jpghttps://www.gcd.com.br/wp-content/uploads/2020/08/safe_image.jpg"
+                                src="http://www.casadacriancasantoamaro.org.br/photos/casadacrianca10.jpg"
                                 alt="Casa das Crianças"
                             />
                         </button>
@@ -107,7 +107,7 @@ export default function Orphanage() {
                             </Map>
 
                             <footer>
-                                <a href="">Ver rotas no Google Maps</a>
+                                <a href="/">Ver rotas no Google Maps</a>
                             </footer>
                         </div>
 
