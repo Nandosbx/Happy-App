@@ -12,6 +12,13 @@ import mapMarkerImg from '../images/map-marker.svg'
 import mapIcon from '../utils/mapIcon'
 
 function OrphanagesMap() {
+
+    useEffect(() => {
+        api.get('orphanages').then(response => {
+            console.log(response)
+        })
+    })
+
     return (
         <div id="page-map">
             <aside>
