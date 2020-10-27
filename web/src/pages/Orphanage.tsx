@@ -13,10 +13,13 @@ interface Orphanage {
     latitude: number
     longitude: number
     name: string
-    description: string
+    about: string
     instructions: string
     opening_hours: string
     open_on_weekends: string
+    images: {
+        url: string
+    }[]
 }
 
 interface OrphanageParams {
@@ -43,10 +46,7 @@ export default function Orphanage() {
 
             <main>
                 <div className="orphanage-details">
-                    <img
-                        src="http://www.casadacriancasantoamaro.org.br/photos/IMG_9179.jpg"
-                        alt="Casa das Crianças"
-                    />
+                    <img src={orphanage.images[0].url} alt={orphanage.name} />
 
                     <div className="images">
                         <button className="active" type="button">
@@ -88,15 +88,15 @@ export default function Orphanage() {
                     </div>
 
                     <div className="orphanage-details-content">
-                        <h1>Casa das Crianças</h1>
-                        <p>
-                            Somos uma entidade sem fins lucrativos que atende
-                            crianças de 0 a 18 anos.
-                        </p>
+                        <h1>{orphanage.name}</h1>
+                        <p>{orphanage.about}</p>
 
                         <div className="map-container">
                             <Map
-                                center={[-23.580409, -46.6637472]}
+                                center={[
+                                    orphanage.latitude,
+                                    orphanage.longitude,
+                                ]}
                                 zoom={16}
                                 style={{ width: '100%', height: 280 }}
                                 dragging={false}
@@ -111,7 +111,10 @@ export default function Orphanage() {
                                 <Marker
                                     interactive={false}
                                     icon={mapIcon}
-                                    position={[-23.580409, -46.6637472]}
+                                    position={[
+                                        orphanage.latitude,
+                                        orphanage.longitude,
+                                    ]}
                                 />
                             </Map>
 
@@ -123,22 +126,27 @@ export default function Orphanage() {
                         <hr />
 
                         <h2>Instruções para visita</h2>
-                        <p>
-                            Venha como se sentir mais à vontade e traga muito
-                            amor para dar.
-                        </p>
+                        <p>{orphanage.instructions}</p>
 
                         <div className="open-details">
                             <div className="hour">
                                 <FiClock size={32} color="#15B6D6" />
                                 Segunda à Sexta <br />
-                                8h às 18h
+                                {orphanage.opening_hours}
                             </div>
-                            <div className="open-on-weekends">
-                                <FiInfo size={32} color="#39CC83" />
-                                Atendemos <br />
-                                fim de semana
-                            </div>
+                            {orphanage.open_on_weekends ? (
+                                <div className="open-on-weekends">
+                                    <FiInfo size={32} color="#39CC83" />
+                                    Atendemos <br />
+                                    {orphanage.open_on_weekends}
+                                </div>
+                            ) : (
+                                <div className="open-on-weekends dont-open">
+                                    <FiInfo size={32} color="#FF6690" />
+                                    Não atendemos <br />
+                                    fim-de-semana
+                                </div>
+                            )}
                         </div>
 
                         <button type="button" className="contact-button">
