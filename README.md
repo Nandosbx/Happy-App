@@ -1,6 +1,6 @@
 <h1 align="center">Next Level Week 3.0</h1>
 <p align="center">
-<img src="./.github/proffy.svg"/>
+<img src="./.github/happy.png"/>
 </p>
 
 <img src="https://img.shields.io/static/v1?label=ROCKETSEAT&message=NLW3.0 &color=15C3D6&labelColor=000000" alt="NEXT LEVEL WEEK" />
@@ -13,29 +13,26 @@
 
 <h2>	📷  WEB</h2>
 <div align='center'>
-
+<!---
 <img src="./.github/" width=100% height=100%/>
-
 <img src="./.github/" width=100% height=100%/>
-
 <img src="./.github/" width=100% height=100%/>
-
+-->
 </div>
 
 ------------
 
 <h2>	📷 MOBILE</h2></h2>
 <div align='center'>
+<!---
 <img src="./.github/" width=20% height=20%/>
-
 <img src="./.github/" width=20% height=20%/>
-
 <img src="./.github/" width=20% height=20%/>
-
 <img src="./.github/" width=20% height=20%/>
+-->
 </div>
 
- 
+------------
 
 <h2>📖 About</h2>
 
