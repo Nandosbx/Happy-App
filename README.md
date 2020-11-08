@@ -72,7 +72,7 @@ This project was developed with:
 <h3>Dependencies</h3>
 
 - [Express](https://expressjs.com/ "Express")
-- [KnexJS](http://knexjs.org/ "KnexJS")
+- [TypeORM](https://typeorm.io/#/ "TypeORM")
 - [SQLite3](https://www.npmjs.com/package/sqlite3 "SQLite3")
 - [Axios](https://www.npmjs.com/package/axios "Axios")
 - [Expo Google Fonts](https://github.com/expo/google-fonts " [Expo Google Fonts]")
