@@ -56,7 +56,7 @@ Access <a href="https://github.com/Nandosbx/Happy-App/blob/master/DOCUMENTATION.
 
 ------------
 
-<h2>🚀 Tecnologies</h2>
+<h2>🚀 Technologies</h2>
 
 This project was developed with:
 - [NodeJs](https://nodejs.org/en/ "NodeJs")
