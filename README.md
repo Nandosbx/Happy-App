@@ -36,7 +36,7 @@
 
 <h2>📖 About</h2>
 
-Happy is a plataform ...
+Happy is a project that allows you to connect people interested in making the lives of orphaned children happier.
 
 ------------
 <h2>🔖 Layout</h2>
