@@ -3,9 +3,9 @@
 <img src="./.github/happy.png"/>
 </p>
 
-<img src="https://img.shields.io/static/v1?label=ROCKETSEAT&message=NLW3.0 &color=15C3D6&labelColor=000000" alt="NEXT LEVEL WEEK" />
+<img src="https://img.shields.io/badge/ROCKETSEAT-NLW%203.0-15C3D6?style=for-the-badge&logo=appveyor"/>
 
-<img src="https://img.shields.io/static/v1?label=LICENSE&message=MIT &color=15C3D6&labelColor=000000" alt="NEXT LEVEL WEEK" />
+<img src="https://img.shields.io/badge/LICENSE-MIT-15C3D6?style=for-the-badge&logo=appveyor" />
 
 ![GitHub top language](https://img.shields.io/github/languages/count/Nandosbx/Happy-App) 
 ![GitHub top language](https://img.shields.io/github/languages/top/Nandosbx/Happy-App) ![GitHub last commit](https://img.shields.io/github/last-commit/Nandosbx/Happy-App) ![GitHub repo size](https://img.shields.io/github/repo-size/Nandosbx/Happy-App) ![GitHub issues](https://img.shields.io/github/issues/Nandosbx/Happy-App)
