@@ -7,7 +7,7 @@
 <img src="https://img.shields.io/badge/ROCKETSEAT-NLW%203.0-15C3D6?style=for-the-badge&logo=appveyor"/><img src="https://img.shields.io/badge/LICENSE-MIT-15C3D6?style=for-the-badge&logo=appveyor" />
 
 
-![GitHub top language](https://img.shields.io/github/languages/count/Nandosbx/Happy-App?color=15C3D6&&style=flat-square&logo=appveyor) 
+![GitHub top language](https://img.shields.io/github/languages/count/Nandosbx/Happy-App?color=15C3D6&&style=flat-square&logo=appveyor)
 ![GitHub top language](https://img.shields.io/github/languages/top/Nandosbx/Happy-App?color=15C3D6&&style=flat-square&logo=appveyor) ![GitHub last commit](https://img.shields.io/github/last-commit/Nandosbx/Happy-App?color=15C3D6&&style=flat-square&logo=appveyor) ![GitHub repo size](https://img.shields.io/github/repo-size/Nandosbx/Happy-App?color=15C3D6&&style=flat-square&logo=appveyor) ![GitHub issues](https://img.shields.io/github/issues/Nandosbx/Happy-App?color=15C3D6&&style=flat-square&logo=appveyor)
 </div>
 
@@ -52,7 +52,7 @@ Happy is a plataform ...
 <h2>📚 Documentation</h2>
 
 🚧Under construction🚧.
-Access <a href="https://github.com/Nandosbx/Ecoleta/blob/master/DOCUMENTATION.md">Documentation</a> and learn more.
+Access <a href="https://github.com/Nandosbx/Happy-App/blob/master/DOCUMENTATION.md">Documentation</a> and learn more.
 
 ------------
 
@@ -101,7 +101,7 @@ Happy was developed by <a href="https://github.com/diego3g">Diego Fernandes</a> 
 
 <h2>📃License</h2>
 
-This project is under MIT License. Access <a href="https://github.com/Nandosbx/Ecoleta/blob/master/LICENSE.md">License</a> and learn more.
+This project is under MIT License. Access <a href="https://github.com/Nandosbx/Happy-App/blob/master/LICENSE.md">License</a> and learn more.
 
 ------------
 
