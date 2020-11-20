@@ -52,7 +52,9 @@ export default function OrphanagesMap() {
                 return
             }
 
-            const location = await Location.getCurrentPositionAsync({accuracy:Location.Accuracy.High})
+            const location = await Location.getCurrentPositionAsync({
+                accuracy: Location.Accuracy.High,
+            })
 
             const { latitude, longitude } = location.coords
 
@@ -72,8 +74,8 @@ export default function OrphanagesMap() {
                     initialRegion={{
                         latitude: initialPosition[0],
                         longitude: initialPosition[1],
-                        latitudeDelta: 0.008,
-                        longitudeDelta: 0.008,
+                        latitudeDelta: 0.014,
+                        longitudeDelta: 0.014,
                     }}
                 >
                     {orphanages.map((orphanage) => {

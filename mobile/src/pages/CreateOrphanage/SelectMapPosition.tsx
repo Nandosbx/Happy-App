@@ -55,8 +55,8 @@ export default function SelectMapPosition() {
                     initialRegion={{
                         latitude: initialPosition[0],
                         longitude: initialPosition[1],
-                        latitudeDelta: 0.008,
-                        longitudeDelta: 0.008,
+                        latitudeDelta: 0.014,
+                        longitudeDelta: 0.014,
                     }}
                     style={styles.mapStyle}
                     onPress={handleSelectedMapPosition}
