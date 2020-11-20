@@ -10,25 +10,19 @@
 </div>
 
 <h2>	📷  WEB</h2>
-<div align='center'>
+<div>
 
-<img src="./.github/happy-landing.png" width=100% height=100%/>
-<img src="./.github/happy-escolha.png" width=100% height=100%/>
-<img src="./.github/happy-form1.png" width=100% height=100%/>
-<img src="./.github/happy-form2.png" width=100% height=100%/>
+- [PICTURES](https://github.com/Nandosbx/Happy-App/tree/master/web "Frontend")
 
 </div>
 
 ------------
 
-<h2>	📷 MOBILE</h2></h2>
-<div align='center'>
-<!---
-<img src="./.github/" width=20% height=20%/>
-<img src="./.github/" width=20% height=20%/>
-<img src="./.github/" width=20% height=20%/>
-<img src="./.github/" width=20% height=20%/>
--->
+<h2>	📷 MOBILE</h2>
+<div >
+
+- [PICTURES](https://github.com/Nandosbx/Happy-App/tree/master/mobile "Mobile")
+
 </div>
 
 ------------
