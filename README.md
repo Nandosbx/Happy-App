@@ -11,6 +11,12 @@
 ![GitHub top language](https://img.shields.io/github/languages/count/Nandosbx/Happy-App?color=15C3D6&&style=for-the-badge&logo=appveyor)![GitHub top language](https://img.shields.io/github/languages/top/Nandosbx/Happy-App?color=15C3D6&&style=for-the-badge&logo=appveyor)![GitHub last commit](https://img.shields.io/github/last-commit/Nandosbx/Happy-App?color=15C3D6&&style=for-the-badge&logo=appveyor)![GitHub repo size](https://img.shields.io/github/repo-size/Nandosbx/Happy-App?color=15C3D6&&style=for-the-badge&logo=appveyor)![GitHub issues](https://img.shields.io/github/issues/Nandosbx/Happy-App?color=15C3D6&&style=for-the-badge&logo=appveyor)
 </div>
 
+<p align="center">
+<img src="./.github/happyproject.gif"/>
+</p>
+
+------------
+
 <h2>	📷  WEB</h2>
 <div>
 
