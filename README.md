@@ -1,7 +1,9 @@
 <h1 align="center">Next Level Week 3.0</h1>
 <p align="center">
-<img src="./.github/happy.png"/>
+<img src="./.github/happy-mockup.png"/>
+<a href='https://www.freepik.com/psd/mockup'>Mockup psd created by rawpixel.com - www.freepik.com</a>
 </p>
+
 
 <div align="center">
 <img src="https://img.shields.io/badge/ROCKETSEAT-NLW%203.0-15C3D6?style=for-the-badge&logo=appveyor"/><img src="https://img.shields.io/badge/LICENSE-MIT-15C3D6?style=for-the-badge&logo=appveyor" />
