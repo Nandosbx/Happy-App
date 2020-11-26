@@ -15,6 +15,14 @@
 <img src="./.github/happyproject.gif"/>
 </p>
 
+
+
+<div align="center">
+
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/4b7093d9e6ba5bcf5675)
+[![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=Happy&uri=https%3A%2F%2Fgithub.com%2FNandosbx%2FHappy-App%2Fblob%2Fmaster%2FInsomnia_Happy.json)
+</div>
+
 ------------
 
 <h2>	📷  WEB</h2>

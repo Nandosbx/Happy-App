@@ -1,0 +1,220 @@
+{
+  "info": {
+    "name": "Happy",
+    "_postman_id": "a170facf-5595-4fe7-a414-56be1d0525ad",
+    "description": "",
+    "schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+  },
+  "item": [
+    {
+      "id": "639f6217-9f53-4e51-849c-446d8f655e1f",
+      "name": "Criar Orfanato",
+      "request": {
+        "url": {
+          "protocol": "http",
+          "host": "localhost",
+          "path": [
+            "orphanages"
+          ],
+          "port": "3333"
+        },
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": "",
+            "disabled": false
+          },
+          {
+            "key": "Accept",
+            "value": "*/*",
+            "disabled": false
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"name\": \"\",\r\n  \"latitude\": \"\",\r\n  \"longitude\": \"\",\r\n  \"about\": \"\",\r\n  \"instructions\": \"\",\r\n  \"opening_hours\": \"\",\r\n  \"open_on_weekends\": true\r\n}",
+          "disabled": false
+        },
+        "description": ""
+      },
+      "response": [
+        {
+          "header": [],
+          "code": 200,
+          "name": "Response_200",
+          "id": "c549faf9-9674-49d2-9aa3-a27519472cb1"
+        }
+      ]
+    },
+    {
+      "id": "f2066e00-b7f7-4bb3-95bc-7d64d6180d9a",
+      "name": "Criar Orfanato2",
+      "request": {
+        "url": {
+          "protocol": "http",
+          "host": "localhost",
+          "path": [
+            "orphanages"
+          ],
+          "port": "3333"
+        },
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "multipart/form-data",
+            "description": "",
+            "disabled": false
+          },
+          {
+            "key": "Accept",
+            "value": "*/*",
+            "disabled": false
+          }
+        ],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "name",
+              "value": "INSERT HERE",
+              "disabled": false,
+              "type": "text",
+              "description": ""
+            },
+            {
+              "key": "latitude",
+              "value": "INSERT HERE",
+              "disabled": false,
+              "type": "text",
+              "description": ""
+            },
+            {
+              "key": "longitude",
+              "value": "INSERT HERE",
+              "disabled": false,
+              "type": "text",
+              "description": ""
+            },
+            {
+              "key": "about",
+              "value": "INSERT HERE",
+              "disabled": false,
+              "type": "text",
+              "description": ""
+            },
+            {
+              "key": "instructions",
+              "value": "INSERT HERE",
+              "disabled": false,
+              "type": "text",
+              "description": ""
+            },
+            {
+              "key": "opening_hours",
+              "value": "INSERT HERE",
+              "disabled": false,
+              "type": "text",
+              "description": ""
+            },
+            {
+              "key": "open_on_weekends",
+              "value": "INSERT HERE",
+              "disabled": false,
+              "type": "text",
+              "description": ""
+            },
+            {
+              "key": "images",
+              "disabled": false,
+              "type": "file",
+              "description": ""
+            }
+          ],
+          "disabled": false
+        },
+        "description": ""
+      },
+      "response": [
+        {
+          "code": 200,
+          "name": "Response_200",
+          "id": "5d76f77f-381a-43b3-9a2c-ba1193d012dd"
+        }
+      ]
+    },
+    {
+      "id": "082fad4d-02d0-4e11-aa0e-64fe84d763bb",
+      "name": "Listar Orfanato",
+      "request": {
+        "url": {
+          "protocol": "http",
+          "host": "localhost",
+          "path": [
+            "orphanages"
+          ],
+          "port": "3333"
+        },
+        "method": "GET",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "*/*",
+            "disabled": false
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "disabled": false
+        },
+        "description": ""
+      },
+      "response": [
+        {
+          "header": [],
+          "code": 200,
+          "name": "Response_200",
+          "id": "6b2aa531-c862-4032-b36d-e1fdc9571ccc"
+        }
+      ]
+    },
+    {
+      "id": "53b4092c-6a41-46e9-a564-de82af8a90a5",
+      "name": "Detalhe do Orfanato",
+      "request": {
+        "url": {
+          "protocol": "http",
+          "host": "localhost",
+          "path": [
+            "orphanages/1"
+          ],
+          "port": "3333"
+        },
+        "method": "GET",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "*/*",
+            "disabled": false
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "disabled": false
+        },
+        "description": ""
+      },
+      "response": [
+        {
+          "header": [],
+          "code": 200,
+          "name": "Response_200",
+          "id": "4fbf0a0f-82fd-46f1-9d47-7cdecf626190"
+        }
+      ]
+    }
+  ],
+  "variable": []
+}
